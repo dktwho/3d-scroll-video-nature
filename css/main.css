@@ -127,3 +127,16 @@ video.frame-media_left {
 .frame__footer {
     font-size: 100px;
 }
+
+.soundbutton {
+    position: fixed;
+    bottom: 5vh;
+    right: 5vw;
+    cursor: pointer;
+    width: 24px;
+    transition: .25s ease;
+}
+
+.soundbutton.paused {
+    opacity: .25;
+}
