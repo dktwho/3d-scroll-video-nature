@@ -106,7 +106,8 @@ video.frame-media_left {
 }
 
 .text-left {
-
+    position: relative;
+    right: 18vw;
 }
 
 .text-right > * {
@@ -121,4 +122,8 @@ video.frame-media_left {
 .frame p {
     max-width: 30vw;
     margin-top: 5vh;
+}
+
+.frame__footer {
+    font-size: 100px;
 }
